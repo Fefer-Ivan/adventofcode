@@ -4,7 +4,7 @@
       '_id': 0, 
       'substring': {
         '$map': {
-          'input': {'$range': [0, {'$subtract': [{'$strLenBytes': '$signal'}, 3]}], 
+          'input': {'$range': [0, {'$subtract': [{'$strLenBytes': '$signal'}, 3]}]}, 
           'as': 'index', 
           'in': {
             '$map': {
@@ -22,28 +22,20 @@
       'includeArrayIndex': 'index'
     }
   }, {
-    '$unwind': {
-      'path': '$substring', 
-      'includeArrayIndex': 'subindex'
-    }
-  }, {
-    '$group': {
-      '_id': '$index', 
-      'uniqueCharacters': {
-        '$addToSet': '$substring'
-      }
+    '$addFields': {
+      'uniqueCharacters': {'$setUnion': '$substring'}
     }
   }, {
     '$match': {
-      '$expr': {
-        '$eq': [{'$size':'$uniqueCharacters'}, 4]
-      }
+      '$expr': {'$eq': [{'$size': '$uniqueCharacters'}, 4]}
     }
   }, {
-    '$sort': {'_id': 1}
+    '$sort': {'index': 1}
   }, {
     '$limit': 1
   }, {
-    '$project': {'_id': {'$add': ['$_id', 4]}}
+    '$project': {
+      'result': {'$add': ['$index', 4]}
+    }
   }
 ]
