@@ -1,0 +1,519 @@
+{"_id": 0, "command": "cd", "argument": "/"}
+{"_id": 1, "command": "ls", "output": [{"type": "dir", "name": "cmwrq"}, {"type": "dir", "name": "ftrccld"}, {"type": "dir", "name": "jjlbmtw"}, {"type": "dir", "name": "jpncfpb"}, {"type": "dir", "name": "mddr"}, {"type": "dir", "name": "mthvntdd"}, {"type": "file", "size": 55644, "name": "pjts.dzh"}, {"type": "dir", "name": "ptzsl"}, {"type": "dir", "name": "wmqc"}]}
+{"_id": 2, "command": "cd", "argument": "cmwrq"}
+{"_id": 3, "command": "ls", "output": [{"type": "dir", "name": "dtbzzl"}, {"type": "dir", "name": "pjnghbm"}, {"type": "file", "size": 16144, "name": "rvs"}, {"type": "file", "size": 50956, "name": "swngfrsj.pcj"}, {"type": "dir", "name": "vhvn"}, {"type": "dir", "name": "vrt"}, {"type": "dir", "name": "zgrjmtcq"}]}
+{"_id": 4, "command": "cd", "argument": "dtbzzl"}
+{"_id": 5, "command": "ls", "output": [{"type": "file", "size": 42503, "name": "ljhpmvd.zqf"}, {"type": "dir", "name": "wwpnn"}]}
+{"_id": 6, "command": "cd", "argument": "wwpnn"}
+{"_id": 7, "command": "ls", "output": [{"type": "file", "size": 58541, "name": "jjdgzwnq"}, {"type": "dir", "name": "lwqgsbg"}, {"type": "dir", "name": "nztw"}, {"type": "dir", "name": "rdtjztmt"}, {"type": "file", "size": 101609, "name": "sqqpcvq.llm"}, {"type": "dir", "name": "ssdlqcrw"}]}
+{"_id": 8, "command": "cd", "argument": "lwqgsbg"}
+{"_id": 9, "command": "ls", "output": [{"type": "file", "size": 207528, "name": "cpqhb.jsf"}, {"type": "file", "size": 38543, "name": "cqjgspw"}, {"type": "dir", "name": "dtbzzl"}, {"type": "file", "size": 106337, "name": "dtbzzl.njz"}, {"type": "file", "size": 302201, "name": "pdv.ppg"}, {"type": "dir", "name": "pjts"}, {"type": "file", "size": 175215, "name": "pvczm.cfw"}, {"type": "dir", "name": "sbvljdh"}]}
+{"_id": 10, "command": "cd", "argument": "dtbzzl"}
+{"_id": 11, "command": "ls", "output": [{"type": "file", "size": 252091, "name": "vhvn.zqv"}]}
+{"_id": 12, "command": "cd", "argument": ".."}
+{"_id": 13, "command": "cd", "argument": "pjts"}
+{"_id": 14, "command": "ls", "output": [{"type": "file", "size": 155681, "name": "bdbfjbgt.rwg"}, {"type": "file", "size": 219192, "name": "dtcz.gqt"}]}
+{"_id": 15, "command": "cd", "argument": ".."}
+{"_id": 16, "command": "cd", "argument": "sbvljdh"}
+{"_id": 17, "command": "ls", "output": [{"type": "dir", "name": "rdrqc"}, {"type": "dir", "name": "rtfpcswj"}]}
+{"_id": 18, "command": "cd", "argument": "rdrqc"}
+{"_id": 19, "command": "ls", "output": [{"type": "file", "size": 242263, "name": "pjts.mbt"}]}
+{"_id": 20, "command": "cd", "argument": ".."}
+{"_id": 21, "command": "cd", "argument": "rtfpcswj"}
+{"_id": 22, "command": "ls", "output": [{"type": "file", "size": 228044, "name": "ssgcjt.twr"}]}
+{"_id": 23, "command": "cd", "argument": ".."}
+{"_id": 24, "command": "cd", "argument": ".."}
+{"_id": 25, "command": "cd", "argument": ".."}
+{"_id": 26, "command": "cd", "argument": "nztw"}
+{"_id": 27, "command": "ls", "output": [{"type": "file", "size": 30777, "name": "vqfsh.smp"}]}
+{"_id": 28, "command": "cd", "argument": ".."}
+{"_id": 29, "command": "cd", "argument": "rdtjztmt"}
+{"_id": 30, "command": "ls", "output": [{"type": "file", "size": 276602, "name": "pvczm.cfw"}, {"type": "dir", "name": "rzbb"}, {"type": "file", "size": 305089, "name": "ssdlqcrw.dgb"}]}
+{"_id": 31, "command": "cd", "argument": "rzbb"}
+{"_id": 32, "command": "ls", "output": [{"type": "file", "size": 155253, "name": "pvczm.cfw"}]}
+{"_id": 33, "command": "cd", "argument": ".."}
+{"_id": 34, "command": "cd", "argument": ".."}
+{"_id": 35, "command": "cd", "argument": "ssdlqcrw"}
+{"_id": 36, "command": "ls", "output": [{"type": "file", "size": 22423, "name": "vqfsh.smp"}]}
+{"_id": 37, "command": "cd", "argument": ".."}
+{"_id": 38, "command": "cd", "argument": ".."}
+{"_id": 39, "command": "cd", "argument": ".."}
+{"_id": 40, "command": "cd", "argument": "pjnghbm"}
+{"_id": 41, "command": "ls", "output": [{"type": "file", "size": 189296, "name": "ctqfg.ljd"}, {"type": "dir", "name": "dtbzzl"}, {"type": "dir", "name": "pjts"}, {"type": "file", "size": 205394, "name": "ssdlqcrw.lgv"}]}
+{"_id": 42, "command": "cd", "argument": "dtbzzl"}
+{"_id": 43, "command": "ls", "output": [{"type": "file", "size": 239152, "name": "fbb.gtn"}, {"type": "dir", "name": "hlw"}, {"type": "file", "size": 39308, "name": "hsnbffzf.qvc"}, {"type": "file", "size": 211316, "name": "nhm.zhz"}, {"type": "dir", "name": "nztw"}, {"type": "dir", "name": "pvsjpn"}, {"type": "file", "size": 230237, "name": "twjq"}]}
+{"_id": 44, "command": "cd", "argument": "hlw"}
+{"_id": 45, "command": "ls", "output": [{"type": "dir", "name": "lfqqrp"}, {"type": "dir", "name": "nztw"}]}
+{"_id": 46, "command": "cd", "argument": "lfqqrp"}
+{"_id": 47, "command": "ls", "output": [{"type": "dir", "name": "mbmfpz"}, {"type": "dir", "name": "mdhfdlw"}, {"type": "dir", "name": "pjts"}, {"type": "dir", "name": "qzs"}, {"type": "dir", "name": "ssdlqcrw"}]}
+{"_id": 48, "command": "cd", "argument": "mbmfpz"}
+{"_id": 49, "command": "ls", "output": [{"type": "dir", "name": "fsrbwl"}, {"type": "dir", "name": "lsmpw"}]}
+{"_id": 50, "command": "cd", "argument": "fsrbwl"}
+{"_id": 51, "command": "ls", "output": [{"type": "file", "size": 154657, "name": "ftlc.zbr"}, {"type": "dir", "name": "ltsj"}, {"type": "file", "size": 228929, "name": "pvczm.cfw"}, {"type": "dir", "name": "ssdlqcrw"}, {"type": "file", "size": 234216, "name": "tdl"}]}
+{"_id": 52, "command": "cd", "argument": "ltsj"}
+{"_id": 53, "command": "ls", "output": [{"type": "file", "size": 51204, "name": "vmq.sjg"}]}
+{"_id": 54, "command": "cd", "argument": ".."}
+{"_id": 55, "command": "cd", "argument": "ssdlqcrw"}
+{"_id": 56, "command": "ls", "output": [{"type": "file", "size": 64928, "name": "nztw.gpn"}]}
+{"_id": 57, "command": "cd", "argument": ".."}
+{"_id": 58, "command": "cd", "argument": ".."}
+{"_id": 59, "command": "cd", "argument": "lsmpw"}
+{"_id": 60, "command": "ls", "output": [{"type": "file", "size": 61867, "name": "dtbzzl.dgj"}]}
+{"_id": 61, "command": "cd", "argument": ".."}
+{"_id": 62, "command": "cd", "argument": ".."}
+{"_id": 63, "command": "cd", "argument": "mdhfdlw"}
+{"_id": 64, "command": "ls", "output": [{"type": "file", "size": 92462, "name": "dtbzzl.jmq"}, {"type": "file", "size": 239442, "name": "tczcgf.zwj"}]}
+{"_id": 65, "command": "cd", "argument": ".."}
+{"_id": 66, "command": "cd", "argument": "pjts"}
+{"_id": 67, "command": "ls", "output": [{"type": "file", "size": 144464, "name": "dtbzzl.lnz"}, {"type": "dir", "name": "pjts"}, {"type": "file", "size": 118500, "name": "swgt.smz"}]}
+{"_id": 68, "command": "cd", "argument": "pjts"}
+{"_id": 69, "command": "ls", "output": [{"type": "file", "size": 173783, "name": "dvztnn"}, {"type": "file", "size": 103088, "name": "jlv.pgh"}, {"type": "file", "size": 39332, "name": "nhm.zhz"}, {"type": "file", "size": 266947, "name": "pppfcg"}]}
+{"_id": 70, "command": "cd", "argument": ".."}
+{"_id": 71, "command": "cd", "argument": ".."}
+{"_id": 72, "command": "cd", "argument": "qzs"}
+{"_id": 73, "command": "ls", "output": [{"type": "file", "size": 11155, "name": "cpqhb.jsf"}]}
+{"_id": 74, "command": "cd", "argument": ".."}
+{"_id": 75, "command": "cd", "argument": "ssdlqcrw"}
+{"_id": 76, "command": "ls", "output": [{"type": "file", "size": 192414, "name": "gcwqcwrf.vmb"}]}
+{"_id": 77, "command": "cd", "argument": ".."}
+{"_id": 78, "command": "cd", "argument": ".."}
+{"_id": 79, "command": "cd", "argument": "nztw"}
+{"_id": 80, "command": "ls", "output": [{"type": "file", "size": 313009, "name": "nwt"}]}
+{"_id": 81, "command": "cd", "argument": ".."}
+{"_id": 82, "command": "cd", "argument": ".."}
+{"_id": 83, "command": "cd", "argument": "nztw"}
+{"_id": 84, "command": "ls", "output": [{"type": "file", "size": 280535, "name": "dtbzzl.grj"}, {"type": "file", "size": 269725, "name": "ssdlqcrw.tqs"}]}
+{"_id": 85, "command": "cd", "argument": ".."}
+{"_id": 86, "command": "cd", "argument": "pvsjpn"}
+{"_id": 87, "command": "ls", "output": [{"type": "file", "size": 105150, "name": "jvjb.mdd"}, {"type": "file", "size": 142501, "name": "nztw.cvp"}]}
+{"_id": 88, "command": "cd", "argument": ".."}
+{"_id": 89, "command": "cd", "argument": ".."}
+{"_id": 90, "command": "cd", "argument": "pjts"}
+{"_id": 91, "command": "ls", "output": [{"type": "dir", "name": "btc"}, {"type": "dir", "name": "tpwcmvch"}, {"type": "file", "size": 259357, "name": "vqfsh.smp"}]}
+{"_id": 92, "command": "cd", "argument": "btc"}
+{"_id": 93, "command": "ls", "output": [{"type": "file", "size": 5264, "name": "gdjpql.wqr"}]}
+{"_id": 94, "command": "cd", "argument": ".."}
+{"_id": 95, "command": "cd", "argument": "tpwcmvch"}
+{"_id": 96, "command": "ls", "output": [{"type": "file", "size": 141657, "name": "jjdgzwnq"}, {"type": "file", "size": 15650, "name": "nhm.zhz"}, {"type": "dir", "name": "nlrq"}, {"type": "file", "size": 182100, "name": "qgf.qgj"}, {"type": "file", "size": 302332, "name": "qshf"}, {"type": "file", "size": 244799, "name": "vhvn"}, {"type": "dir", "name": "wvnqzjf"}]}
+{"_id": 97, "command": "cd", "argument": "nlrq"}
+{"_id": 98, "command": "ls", "output": [{"type": "dir", "name": "dtbzzl"}, {"type": "file", "size": 207207, "name": "gnd.vmb"}]}
+{"_id": 99, "command": "cd", "argument": "dtbzzl"}
+{"_id": 100, "command": "ls", "output": [{"type": "file", "size": 271143, "name": "wjbzmc"}]}
+{"_id": 101, "command": "cd", "argument": ".."}
+{"_id": 102, "command": "cd", "argument": ".."}
+{"_id": 103, "command": "cd", "argument": "wvnqzjf"}
+{"_id": 104, "command": "ls", "output": [{"type": "file", "size": 64128, "name": "mtzc.rqb"}]}
+{"_id": 105, "command": "cd", "argument": ".."}
+{"_id": 106, "command": "cd", "argument": ".."}
+{"_id": 107, "command": "cd", "argument": ".."}
+{"_id": 108, "command": "cd", "argument": ".."}
+{"_id": 109, "command": "cd", "argument": "vhvn"}
+{"_id": 110, "command": "ls", "output": [{"type": "file", "size": 187526, "name": "vqfsh.smp"}]}
+{"_id": 111, "command": "cd", "argument": ".."}
+{"_id": 112, "command": "cd", "argument": "vrt"}
+{"_id": 113, "command": "ls", "output": [{"type": "dir", "name": "drrnm"}, {"type": "dir", "name": "fqr"}, {"type": "file", "size": 270995, "name": "nztw.mfg"}, {"type": "file", "size": 137476, "name": "vqfsh.smp"}]}
+{"_id": 114, "command": "cd", "argument": "drrnm"}
+{"_id": 115, "command": "ls", "output": [{"type": "file", "size": 250912, "name": "pvczm.cfw"}]}
+{"_id": 116, "command": "cd", "argument": ".."}
+{"_id": 117, "command": "cd", "argument": "fqr"}
+{"_id": 118, "command": "ls", "output": [{"type": "file", "size": 229272, "name": "nszfcq"}, {"type": "dir", "name": "nztw"}, {"type": "file", "size": 170643, "name": "phh.pdl"}]}
+{"_id": 119, "command": "cd", "argument": "nztw"}
+{"_id": 120, "command": "ls", "output": [{"type": "dir", "name": "bqf"}]}
+{"_id": 121, "command": "cd", "argument": "bqf"}
+{"_id": 122, "command": "ls", "output": [{"type": "file", "size": 9998, "name": "vqfsh.smp"}]}
+{"_id": 123, "command": "cd", "argument": ".."}
+{"_id": 124, "command": "cd", "argument": ".."}
+{"_id": 125, "command": "cd", "argument": ".."}
+{"_id": 126, "command": "cd", "argument": ".."}
+{"_id": 127, "command": "cd", "argument": "zgrjmtcq"}
+{"_id": 128, "command": "ls", "output": [{"type": "file", "size": 109025, "name": "vhvn"}]}
+{"_id": 129, "command": "cd", "argument": ".."}
+{"_id": 130, "command": "cd", "argument": ".."}
+{"_id": 131, "command": "cd", "argument": "ftrccld"}
+{"_id": 132, "command": "ls", "output": [{"type": "dir", "name": "dtbzzl"}, {"type": "dir", "name": "fvmh"}, {"type": "dir", "name": "fwztt"}, {"type": "file", "size": 22306, "name": "jngjc.mpd"}, {"type": "file", "size": 190320, "name": "lnr.jhn"}, {"type": "dir", "name": "lsvvn"}, {"type": "file", "size": 295676, "name": "nztw"}, {"type": "file", "size": 135025, "name": "nztw.ssc"}, {"type": "dir", "name": "pjts"}, {"type": "dir", "name": "qglhlggq"}, {"type": "dir", "name": "rslphgp"}, {"type": "file", "size": 247764, "name": "ssdlqcrw.jnm"}, {"type": "dir", "name": "vhvn"}]}
+{"_id": 133, "command": "cd", "argument": "dtbzzl"}
+{"_id": 134, "command": "ls", "output": [{"type": "dir", "name": "fgwh"}]}
+{"_id": 135, "command": "cd", "argument": "fgwh"}
+{"_id": 136, "command": "ls", "output": [{"type": "dir", "name": "dpdvswq"}]}
+{"_id": 137, "command": "cd", "argument": "dpdvswq"}
+{"_id": 138, "command": "ls", "output": [{"type": "dir", "name": "jsstq"}, {"type": "file", "size": 248465, "name": "vhvn"}]}
+{"_id": 139, "command": "cd", "argument": "jsstq"}
+{"_id": 140, "command": "ls", "output": [{"type": "file", "size": 252517, "name": "nztw"}]}
+{"_id": 141, "command": "cd", "argument": ".."}
+{"_id": 142, "command": "cd", "argument": ".."}
+{"_id": 143, "command": "cd", "argument": ".."}
+{"_id": 144, "command": "cd", "argument": ".."}
+{"_id": 145, "command": "cd", "argument": "fvmh"}
+{"_id": 146, "command": "ls", "output": [{"type": "dir", "name": "djcn"}, {"type": "dir", "name": "dtbzzl"}, {"type": "file", "size": 303052, "name": "fbnnfsbp.zzg"}, {"type": "file", "size": 77238, "name": "mdpcghq.nls"}, {"type": "dir", "name": "mvppnhr"}, {"type": "file", "size": 238683, "name": "ptw"}, {"type": "dir", "name": "zdqlwnc"}]}
+{"_id": 147, "command": "cd", "argument": "djcn"}
+{"_id": 148, "command": "ls", "output": [{"type": "file", "size": 8600, "name": "jjdgzwnq"}]}
+{"_id": 149, "command": "cd", "argument": ".."}
+{"_id": 150, "command": "cd", "argument": "dtbzzl"}
+{"_id": 151, "command": "ls", "output": [{"type": "dir", "name": "sppdjcm"}, {"type": "dir", "name": "vtnzqtvj"}]}
+{"_id": 152, "command": "cd", "argument": "sppdjcm"}
+{"_id": 153, "command": "ls", "output": [{"type": "file", "size": 237925, "name": "dvfctpg.zbn"}, {"type": "dir", "name": "fghb"}, {"type": "dir", "name": "pfjdsm"}, {"type": "dir", "name": "pjts"}, {"type": "file", "size": 314661, "name": "zfchfq"}]}
+{"_id": 154, "command": "cd", "argument": "fghb"}
+{"_id": 155, "command": "ls", "output": [{"type": "file", "size": 280081, "name": "cpqhb.jsf"}, {"type": "file", "size": 88448, "name": "wbcpnnvs.sjc"}]}
+{"_id": 156, "command": "cd", "argument": ".."}
+{"_id": 157, "command": "cd", "argument": "pfjdsm"}
+{"_id": 158, "command": "ls", "output": [{"type": "file", "size": 256877, "name": "bssmgf"}, {"type": "file", "size": 127978, "name": "drwttw"}, {"type": "file", "size": 103674, "name": "hznr.hjg"}]}
+{"_id": 159, "command": "cd", "argument": ".."}
+{"_id": 160, "command": "cd", "argument": "pjts"}
+{"_id": 161, "command": "ls", "output": [{"type": "file", "size": 191709, "name": "qhwwpzn.dsc"}]}
+{"_id": 162, "command": "cd", "argument": ".."}
+{"_id": 163, "command": "cd", "argument": ".."}
+{"_id": 164, "command": "cd", "argument": "vtnzqtvj"}
+{"_id": 165, "command": "ls", "output": [{"type": "dir", "name": "rrl"}]}
+{"_id": 166, "command": "cd", "argument": "rrl"}
+{"_id": 167, "command": "ls", "output": [{"type": "file", "size": 281036, "name": "jjdgzwnq"}, {"type": "dir", "name": "lzlswv"}, {"type": "dir", "name": "sjsqnvq"}, {"type": "file", "size": 245082, "name": "ssdlqcrw.smq"}]}
+{"_id": 168, "command": "cd", "argument": "lzlswv"}
+{"_id": 169, "command": "ls", "output": [{"type": "dir", "name": "dmh"}]}
+{"_id": 170, "command": "cd", "argument": "dmh"}
+{"_id": 171, "command": "ls", "output": [{"type": "file", "size": 41234, "name": "hlhgn.mvr"}, {"type": "file", "size": 233542, "name": "tgv.csn"}]}
+{"_id": 172, "command": "cd", "argument": ".."}
+{"_id": 173, "command": "cd", "argument": ".."}
+{"_id": 174, "command": "cd", "argument": "sjsqnvq"}
+{"_id": 175, "command": "ls", "output": [{"type": "file", "size": 221327, "name": "qjncmbn"}]}
+{"_id": 176, "command": "cd", "argument": ".."}
+{"_id": 177, "command": "cd", "argument": ".."}
+{"_id": 178, "command": "cd", "argument": ".."}
+{"_id": 179, "command": "cd", "argument": ".."}
+{"_id": 180, "command": "cd", "argument": "mvppnhr"}
+{"_id": 181, "command": "ls", "output": [{"type": "dir", "name": "ldwv"}, {"type": "file", "size": 176153, "name": "nztw"}, {"type": "dir", "name": "rmdjdqvl"}, {"type": "dir", "name": "tmj"}, {"type": "dir", "name": "vhvn"}]}
+{"_id": 182, "command": "cd", "argument": "ldwv"}
+{"_id": 183, "command": "ls", "output": [{"type": "file", "size": 161179, "name": "mjsm"}]}
+{"_id": 184, "command": "cd", "argument": ".."}
+{"_id": 185, "command": "cd", "argument": "rmdjdqvl"}
+{"_id": 186, "command": "ls", "output": [{"type": "dir", "name": "gnztqmhv"}, {"type": "dir", "name": "lpmhfr"}, {"type": "dir", "name": "tphjm"}]}
+{"_id": 187, "command": "cd", "argument": "gnztqmhv"}
+{"_id": 188, "command": "ls", "output": [{"type": "file", "size": 176043, "name": "qlds.mpq"}]}
+{"_id": 189, "command": "cd", "argument": ".."}
+{"_id": 190, "command": "cd", "argument": "lpmhfr"}
+{"_id": 191, "command": "ls", "output": [{"type": "dir", "name": "jrrdsd"}]}
+{"_id": 192, "command": "cd", "argument": "jrrdsd"}
+{"_id": 193, "command": "ls", "output": [{"type": "file", "size": 114477, "name": "vqfsh.smp"}]}
+{"_id": 194, "command": "cd", "argument": ".."}
+{"_id": 195, "command": "cd", "argument": ".."}
+{"_id": 196, "command": "cd", "argument": "tphjm"}
+{"_id": 197, "command": "ls", "output": [{"type": "file", "size": 74809, "name": "dcfmjn"}]}
+{"_id": 198, "command": "cd", "argument": ".."}
+{"_id": 199, "command": "cd", "argument": ".."}
+{"_id": 200, "command": "cd", "argument": "tmj"}
+{"_id": 201, "command": "ls", "output": [{"type": "file", "size": 252001, "name": "cpqhb.jsf"}, {"type": "file", "size": 49666, "name": "pqpq"}, {"type": "file", "size": 139885, "name": "qpj.wpb"}, {"type": "file", "size": 116339, "name": "vqfsh.smp"}]}
+{"_id": 202, "command": "cd", "argument": ".."}
+{"_id": 203, "command": "cd", "argument": "vhvn"}
+{"_id": 204, "command": "ls", "output": [{"type": "file", "size": 89397, "name": "dtbzzl.hvp"}, {"type": "file", "size": 105454, "name": "pvczm.cfw"}, {"type": "file", "size": 280352, "name": "zdzm"}]}
+{"_id": 205, "command": "cd", "argument": ".."}
+{"_id": 206, "command": "cd", "argument": ".."}
+{"_id": 207, "command": "cd", "argument": "zdqlwnc"}
+{"_id": 208, "command": "ls", "output": [{"type": "dir", "name": "fbhcv"}, {"type": "file", "size": 8676, "name": "jjdgzwnq"}, {"type": "file", "size": 99885, "name": "nhm.zhz"}, {"type": "file", "size": 234563, "name": "pjts.gdj"}, {"type": "dir", "name": "rsdltnvc"}]}
+{"_id": 209, "command": "cd", "argument": "fbhcv"}
+{"_id": 210, "command": "ls", "output": [{"type": "file", "size": 71695, "name": "hrzzgwqt"}, {"type": "file", "size": 296401, "name": "vqfsh.smp"}]}
+{"_id": 211, "command": "cd", "argument": ".."}
+{"_id": 212, "command": "cd", "argument": "rsdltnvc"}
+{"_id": 213, "command": "ls", "output": [{"type": "file", "size": 41623, "name": "gcvtqf"}, {"type": "file", "size": 233747, "name": "wdcssvgh.vfs"}]}
+{"_id": 214, "command": "cd", "argument": ".."}
+{"_id": 215, "command": "cd", "argument": ".."}
+{"_id": 216, "command": "cd", "argument": ".."}
+{"_id": 217, "command": "cd", "argument": "fwztt"}
+{"_id": 218, "command": "ls", "output": [{"type": "file", "size": 96594, "name": "jjdgzwnq"}, {"type": "file", "size": 245415, "name": "mtp.szl"}, {"type": "file", "size": 129782, "name": "pjts.jjr"}, {"type": "file", "size": 308104, "name": "pvczm.cfw"}, {"type": "dir", "name": "ssdlqcrw"}, {"type": "file", "size": 155109, "name": "vhvn.smj"}, {"type": "dir", "name": "vvzsr"}]}
+{"_id": 219, "command": "cd", "argument": "ssdlqcrw"}
+{"_id": 220, "command": "ls", "output": [{"type": "dir", "name": "bzd"}, {"type": "file", "size": 292228, "name": "dtbzzl.tdb"}, {"type": "file", "size": 107505, "name": "ssdlqcrw"}, {"type": "file", "size": 181384, "name": "tfnrpsd"}]}
+{"_id": 221, "command": "cd", "argument": "bzd"}
+{"_id": 222, "command": "ls", "output": [{"type": "file", "size": 84648, "name": "brdc"}, {"type": "file", "size": 171457, "name": "vhvn"}]}
+{"_id": 223, "command": "cd", "argument": ".."}
+{"_id": 224, "command": "cd", "argument": ".."}
+{"_id": 225, "command": "cd", "argument": "vvzsr"}
+{"_id": 226, "command": "ls", "output": [{"type": "dir", "name": "bcdqrs"}, {"type": "file", "size": 147437, "name": "jjdgzwnq"}, {"type": "dir", "name": "ssdlqcrw"}, {"type": "file", "size": 197054, "name": "ssdlqcrw.dpz"}, {"type": "dir", "name": "vhvn"}, {"type": "dir", "name": "wthshgg"}]}
+{"_id": 227, "command": "cd", "argument": "bcdqrs"}
+{"_id": 228, "command": "ls", "output": [{"type": "file", "size": 297401, "name": "pspd.dlq"}, {"type": "file", "size": 136072, "name": "pvczm.cfw"}]}
+{"_id": 229, "command": "cd", "argument": ".."}
+{"_id": 230, "command": "cd", "argument": "ssdlqcrw"}
+{"_id": 231, "command": "ls", "output": [{"type": "file", "size": 293104, "name": "dtbzzl.pdh"}]}
+{"_id": 232, "command": "cd", "argument": ".."}
+{"_id": 233, "command": "cd", "argument": "vhvn"}
+{"_id": 234, "command": "ls", "output": [{"type": "file", "size": 178932, "name": "gvrht.cbm"}]}
+{"_id": 235, "command": "cd", "argument": ".."}
+{"_id": 236, "command": "cd", "argument": "wthshgg"}
+{"_id": 237, "command": "ls", "output": [{"type": "dir", "name": "dppwvtmp"}, {"type": "dir", "name": "ljgszd"}, {"type": "file", "size": 88822, "name": "pcmw.bbq"}, {"type": "file", "size": 255776, "name": "pvczm.cfw"}, {"type": "file", "size": 163501, "name": "ssdlqcrw"}, {"type": "dir", "name": "vbjsmgp"}, {"type": "dir", "name": "vzqc"}, {"type": "dir", "name": "zmpdrpd"}]}
+{"_id": 238, "command": "cd", "argument": "dppwvtmp"}
+{"_id": 239, "command": "ls", "output": [{"type": "file", "size": 45608, "name": "dtbzzl.lfq"}, {"type": "file", "size": 164648, "name": "gdch.bzp"}, {"type": "file", "size": 65225, "name": "nhm.zhz"}]}
+{"_id": 240, "command": "cd", "argument": ".."}
+{"_id": 241, "command": "cd", "argument": "ljgszd"}
+{"_id": 242, "command": "ls", "output": [{"type": "file", "size": 125627, "name": "vqfsh.smp"}]}
+{"_id": 243, "command": "cd", "argument": ".."}
+{"_id": 244, "command": "cd", "argument": "vbjsmgp"}
+{"_id": 245, "command": "ls", "output": [{"type": "file", "size": 236951, "name": "zpbgb.zmv"}]}
+{"_id": 246, "command": "cd", "argument": ".."}
+{"_id": 247, "command": "cd", "argument": "vzqc"}
+{"_id": 248, "command": "ls", "output": [{"type": "file", "size": 234565, "name": "fjfpbjjp"}, {"type": "file", "size": 254986, "name": "jjdgzwnq"}, {"type": "file", "size": 164495, "name": "nztw.qhz"}, {"type": "dir", "name": "vhvn"}]}
+{"_id": 249, "command": "cd", "argument": "vhvn"}
+{"_id": 250, "command": "ls", "output": [{"type": "file", "size": 199196, "name": "nztw"}]}
+{"_id": 251, "command": "cd", "argument": ".."}
+{"_id": 252, "command": "cd", "argument": ".."}
+{"_id": 253, "command": "cd", "argument": "zmpdrpd"}
+{"_id": 254, "command": "ls", "output": [{"type": "file", "size": 123210, "name": "bznqq.dbv"}, {"type": "file", "size": 141163, "name": "jjdgzwnq"}, {"type": "file", "size": 302352, "name": "wjf.tdv"}, {"type": "file", "size": 92016, "name": "wljnwsh"}]}
+{"_id": 255, "command": "cd", "argument": ".."}
+{"_id": 256, "command": "cd", "argument": ".."}
+{"_id": 257, "command": "cd", "argument": ".."}
+{"_id": 258, "command": "cd", "argument": ".."}
+{"_id": 259, "command": "cd", "argument": "lsvvn"}
+{"_id": 260, "command": "ls", "output": [{"type": "file", "size": 282867, "name": "phv.ncc"}]}
+{"_id": 261, "command": "cd", "argument": ".."}
+{"_id": 262, "command": "cd", "argument": "pjts"}
+{"_id": 263, "command": "ls", "output": [{"type": "file", "size": 40866, "name": "jjdgzwnq"}]}
+{"_id": 264, "command": "cd", "argument": ".."}
+{"_id": 265, "command": "cd", "argument": "qglhlggq"}
+{"_id": 266, "command": "ls", "output": [{"type": "file", "size": 19577, "name": "dtbzzl.ngb"}, {"type": "file", "size": 21171, "name": "jjdgzwnq"}, {"type": "file", "size": 136074, "name": "pvczm.cfw"}, {"type": "file", "size": 212428, "name": "rlpjjf.lvh"}, {"type": "dir", "name": "vhvn"}, {"type": "file", "size": 274669, "name": "wcqlws.ndv"}, {"type": "dir", "name": "wpvq"}]}
+{"_id": 267, "command": "cd", "argument": "vhvn"}
+{"_id": 268, "command": "ls", "output": [{"type": "file", "size": 183301, "name": "cbppfp.vbc"}, {"type": "file", "size": 84069, "name": "cqnz"}, {"type": "dir", "name": "dtbzzl"}, {"type": "dir", "name": "mdng"}, {"type": "file", "size": 126627, "name": "pjts.pvp"}, {"type": "dir", "name": "ptqq"}, {"type": "file", "size": 47594, "name": "pvczm.cfw"}, {"type": "file", "size": 154978, "name": "qlnnfbvd"}]}
+{"_id": 269, "command": "cd", "argument": "dtbzzl"}
+{"_id": 270, "command": "ls", "output": [{"type": "file", "size": 50385, "name": "ccgbrdmb.hrr"}, {"type": "file", "size": 22427, "name": "rzlwl.jbt"}]}
+{"_id": 271, "command": "cd", "argument": ".."}
+{"_id": 272, "command": "cd", "argument": "mdng"}
+{"_id": 273, "command": "ls", "output": [{"type": "dir", "name": "gdqqtvnp"}, {"type": "file", "size": 224013, "name": "gtv.tbz"}, {"type": "file", "size": 121884, "name": "jjdgzwnq"}, {"type": "dir", "name": "nrmhpblm"}, {"type": "file", "size": 142950, "name": "nztw"}, {"type": "file", "size": 9710, "name": "pvczm.cfw"}, {"type": "dir", "name": "vhvn"}]}
+{"_id": 274, "command": "cd", "argument": "gdqqtvnp"}
+{"_id": 275, "command": "ls", "output": [{"type": "file", "size": 292349, "name": "vhvn.nfr"}]}
+{"_id": 276, "command": "cd", "argument": ".."}
+{"_id": 277, "command": "cd", "argument": "nrmhpblm"}
+{"_id": 278, "command": "ls", "output": [{"type": "file", "size": 52703, "name": "jbvd.mlc"}, {"type": "file", "size": 78268, "name": "pfns.lpr"}]}
+{"_id": 279, "command": "cd", "argument": ".."}
+{"_id": 280, "command": "cd", "argument": "vhvn"}
+{"_id": 281, "command": "ls", "output": [{"type": "file", "size": 274549, "name": "pjts"}]}
+{"_id": 282, "command": "cd", "argument": ".."}
+{"_id": 283, "command": "cd", "argument": ".."}
+{"_id": 284, "command": "cd", "argument": "ptqq"}
+{"_id": 285, "command": "ls", "output": [{"type": "file", "size": 257967, "name": "jqppq.lgb"}, {"type": "file", "size": 166450, "name": "nhm.zhz"}]}
+{"_id": 286, "command": "cd", "argument": ".."}
+{"_id": 287, "command": "cd", "argument": ".."}
+{"_id": 288, "command": "cd", "argument": "wpvq"}
+{"_id": 289, "command": "ls", "output": [{"type": "file", "size": 173437, "name": "vqfsh.smp"}]}
+{"_id": 290, "command": "cd", "argument": ".."}
+{"_id": 291, "command": "cd", "argument": ".."}
+{"_id": 292, "command": "cd", "argument": "rslphgp"}
+{"_id": 293, "command": "ls", "output": [{"type": "file", "size": 29192, "name": "pvczm.cfw"}, {"type": "file", "size": 18984, "name": "ttpfnqvn.cdr"}, {"type": "file", "size": 302301, "name": "vqfsh.smp"}, {"type": "file", "size": 291211, "name": "vsvtc.wwf"}]}
+{"_id": 294, "command": "cd", "argument": ".."}
+{"_id": 295, "command": "cd", "argument": "vhvn"}
+{"_id": 296, "command": "ls", "output": [{"type": "dir", "name": "ssdlqcrw"}]}
+{"_id": 297, "command": "cd", "argument": "ssdlqcrw"}
+{"_id": 298, "command": "ls", "output": [{"type": "file", "size": 76864, "name": "jpwvws.fwv"}, {"type": "file", "size": 26365, "name": "nztw.css"}, {"type": "file", "size": 185966, "name": "vqfsh.smp"}]}
+{"_id": 299, "command": "cd", "argument": ".."}
+{"_id": 300, "command": "cd", "argument": ".."}
+{"_id": 301, "command": "cd", "argument": ".."}
+{"_id": 302, "command": "cd", "argument": "jjlbmtw"}
+{"_id": 303, "command": "ls", "output": [{"type": "file", "size": 211239, "name": "ctfhmm.ssv"}, {"type": "file", "size": 230020, "name": "nztw"}, {"type": "file", "size": 109641, "name": "sqtjn"}]}
+{"_id": 304, "command": "cd", "argument": ".."}
+{"_id": 305, "command": "cd", "argument": "jpncfpb"}
+{"_id": 306, "command": "ls", "output": [{"type": "dir", "name": "hjgwcmh"}, {"type": "file", "size": 286054, "name": "pcffhsw.bdm"}, {"type": "file", "size": 260831, "name": "pvczm.cfw"}, {"type": "dir", "name": "vhvn"}]}
+{"_id": 307, "command": "cd", "argument": "hjgwcmh"}
+{"_id": 308, "command": "ls", "output": [{"type": "file", "size": 92277, "name": "bbjhc"}, {"type": "dir", "name": "fmst"}, {"type": "dir", "name": "gzjq"}]}
+{"_id": 309, "command": "cd", "argument": "fmst"}
+{"_id": 310, "command": "ls", "output": [{"type": "file", "size": 105833, "name": "cpqhb.jsf"}, {"type": "file", "size": 315858, "name": "nhm.zhz"}, {"type": "file", "size": 233459, "name": "nztw"}]}
+{"_id": 311, "command": "cd", "argument": ".."}
+{"_id": 312, "command": "cd", "argument": "gzjq"}
+{"_id": 313, "command": "ls", "output": [{"type": "dir", "name": "prjqfwf"}, {"type": "dir", "name": "ssdlqcrw"}]}
+{"_id": 314, "command": "cd", "argument": "prjqfwf"}
+{"_id": 315, "command": "ls", "output": [{"type": "file", "size": 151003, "name": "jnmgdb.rhn"}]}
+{"_id": 316, "command": "cd", "argument": ".."}
+{"_id": 317, "command": "cd", "argument": "ssdlqcrw"}
+{"_id": 318, "command": "ls", "output": [{"type": "file", "size": 103688, "name": "cpqhb.jsf"}]}
+{"_id": 319, "command": "cd", "argument": ".."}
+{"_id": 320, "command": "cd", "argument": ".."}
+{"_id": 321, "command": "cd", "argument": ".."}
+{"_id": 322, "command": "cd", "argument": "vhvn"}
+{"_id": 323, "command": "ls", "output": [{"type": "file", "size": 14901, "name": "cpqhb.jsf"}, {"type": "file", "size": 98212, "name": "tztzq"}]}
+{"_id": 324, "command": "cd", "argument": ".."}
+{"_id": 325, "command": "cd", "argument": ".."}
+{"_id": 326, "command": "cd", "argument": "mddr"}
+{"_id": 327, "command": "ls", "output": [{"type": "dir", "name": "qpfjp"}]}
+{"_id": 328, "command": "cd", "argument": "qpfjp"}
+{"_id": 329, "command": "ls", "output": [{"type": "dir", "name": "cfhv"}]}
+{"_id": 330, "command": "cd", "argument": "cfhv"}
+{"_id": 331, "command": "ls", "output": [{"type": "dir", "name": "ssdlqcrw"}]}
+{"_id": 332, "command": "cd", "argument": "ssdlqcrw"}
+{"_id": 333, "command": "ls", "output": [{"type": "file", "size": 134280, "name": "vvnpvrqb.hdv"}]}
+{"_id": 334, "command": "cd", "argument": ".."}
+{"_id": 335, "command": "cd", "argument": ".."}
+{"_id": 336, "command": "cd", "argument": ".."}
+{"_id": 337, "command": "cd", "argument": ".."}
+{"_id": 338, "command": "cd", "argument": "mthvntdd"}
+{"_id": 339, "command": "ls", "output": [{"type": "dir", "name": "bcdcz"}, {"type": "dir", "name": "cngbf"}, {"type": "file", "size": 62389, "name": "cwtvl"}, {"type": "dir", "name": "mqjjbq"}, {"type": "dir", "name": "nhblb"}, {"type": "file", "size": 6743, "name": "pvczm.cfw"}, {"type": "dir", "name": "ssdlqcrw"}, {"type": "dir", "name": "ttvgr"}, {"type": "dir", "name": "vdmm"}, {"type": "dir", "name": "wnhnwjm"}, {"type": "dir", "name": "zdvbsb"}]}
+{"_id": 340, "command": "cd", "argument": "bcdcz"}
+{"_id": 341, "command": "ls", "output": [{"type": "file", "size": 213688, "name": "dtbzzl.hsv"}, {"type": "dir", "name": "lbvbc"}, {"type": "file", "size": 100222, "name": "nndbhrf"}, {"type": "file", "size": 115627, "name": "rqnsfbz.rmf"}, {"type": "dir", "name": "tvgclpsc"}, {"type": "file", "size": 258672, "name": "vqfsh.smp"}, {"type": "file", "size": 163927, "name": "whgmd"}]}
+{"_id": 342, "command": "cd", "argument": "lbvbc"}
+{"_id": 343, "command": "ls", "output": [{"type": "file", "size": 224836, "name": "fpfpwtf.zfz"}, {"type": "file", "size": 103806, "name": "nztw"}]}
+{"_id": 344, "command": "cd", "argument": ".."}
+{"_id": 345, "command": "cd", "argument": "tvgclpsc"}
+{"_id": 346, "command": "ls", "output": [{"type": "file", "size": 76900, "name": "cpqhb.jsf"}, {"type": "file", "size": 282820, "name": "qtffdmsg"}]}
+{"_id": 347, "command": "cd", "argument": ".."}
+{"_id": 348, "command": "cd", "argument": ".."}
+{"_id": 349, "command": "cd", "argument": "cngbf"}
+{"_id": 350, "command": "ls", "output": [{"type": "dir", "name": "hstph"}, {"type": "file", "size": 12089, "name": "jqvnttq.dsh"}, {"type": "file", "size": 38052, "name": "nztw.sqj"}, {"type": "dir", "name": "qrnpjz"}]}
+{"_id": 351, "command": "cd", "argument": "hstph"}
+{"_id": 352, "command": "ls", "output": [{"type": "file", "size": 172788, "name": "pjts.qmt"}]}
+{"_id": 353, "command": "cd", "argument": ".."}
+{"_id": 354, "command": "cd", "argument": "qrnpjz"}
+{"_id": 355, "command": "ls", "output": [{"type": "dir", "name": "blzc"}, {"type": "dir", "name": "rvl"}, {"type": "dir", "name": "zvhtzqqc"}]}
+{"_id": 356, "command": "cd", "argument": "blzc"}
+{"_id": 357, "command": "ls", "output": [{"type": "file", "size": 108342, "name": "nhm.zhz"}]}
+{"_id": 358, "command": "cd", "argument": ".."}
+{"_id": 359, "command": "cd", "argument": "rvl"}
+{"_id": 360, "command": "ls", "output": [{"type": "dir", "name": "bcrf"}, {"type": "dir", "name": "sjbr"}]}
+{"_id": 361, "command": "cd", "argument": "bcrf"}
+{"_id": 362, "command": "ls", "output": [{"type": "file", "size": 182498, "name": "cpqhb.jsf"}, {"type": "dir", "name": "dcb"}, {"type": "file", "size": 14228, "name": "ggsq"}, {"type": "dir", "name": "gnhvtgm"}]}
+{"_id": 363, "command": "cd", "argument": "dcb"}
+{"_id": 364, "command": "ls", "output": [{"type": "dir", "name": "zlgjzcjv"}]}
+{"_id": 365, "command": "cd", "argument": "zlgjzcjv"}
+{"_id": 366, "command": "ls", "output": [{"type": "file", "size": 18316, "name": "cpqhb.jsf"}]}
+{"_id": 367, "command": "cd", "argument": ".."}
+{"_id": 368, "command": "cd", "argument": ".."}
+{"_id": 369, "command": "cd", "argument": "gnhvtgm"}
+{"_id": 370, "command": "ls", "output": [{"type": "file", "size": 110236, "name": "nhm.zhz"}]}
+{"_id": 371, "command": "cd", "argument": ".."}
+{"_id": 372, "command": "cd", "argument": ".."}
+{"_id": 373, "command": "cd", "argument": "sjbr"}
+{"_id": 374, "command": "ls", "output": [{"type": "file", "size": 133009, "name": "cscbp"}, {"type": "file", "size": 315907, "name": "vtpmnwt"}]}
+{"_id": 375, "command": "cd", "argument": ".."}
+{"_id": 376, "command": "cd", "argument": ".."}
+{"_id": 377, "command": "cd", "argument": "zvhtzqqc"}
+{"_id": 378, "command": "ls", "output": [{"type": "dir", "name": "fglfpn"}, {"type": "dir", "name": "gtzrq"}, {"type": "dir", "name": "hfgdcf"}, {"type": "file", "size": 274977, "name": "ltbzhjn"}, {"type": "dir", "name": "msc"}, {"type": "dir", "name": "ssdlqcrw"}]}
+{"_id": 379, "command": "cd", "argument": "fglfpn"}
+{"_id": 380, "command": "ls", "output": [{"type": "file", "size": 39153, "name": "dvhjpfc"}]}
+{"_id": 381, "command": "cd", "argument": ".."}
+{"_id": 382, "command": "cd", "argument": "gtzrq"}
+{"_id": 383, "command": "ls", "output": [{"type": "file", "size": 60625, "name": "sqljdlpz.wpw"}]}
+{"_id": 384, "command": "cd", "argument": ".."}
+{"_id": 385, "command": "cd", "argument": "hfgdcf"}
+{"_id": 386, "command": "ls", "output": [{"type": "file", "size": 36016, "name": "qdvnn.pbt"}]}
+{"_id": 387, "command": "cd", "argument": ".."}
+{"_id": 388, "command": "cd", "argument": "msc"}
+{"_id": 389, "command": "ls", "output": [{"type": "file", "size": 56601, "name": "cpqhb.jsf"}, {"type": "dir", "name": "hrz"}, {"type": "dir", "name": "vlhllqz"}]}
+{"_id": 390, "command": "cd", "argument": "hrz"}
+{"_id": 391, "command": "ls", "output": [{"type": "file", "size": 241511, "name": "fhngt.mlb"}, {"type": "file", "size": 286505, "name": "nhm.zhz"}]}
+{"_id": 392, "command": "cd", "argument": ".."}
+{"_id": 393, "command": "cd", "argument": "vlhllqz"}
+{"_id": 394, "command": "ls", "output": [{"type": "file", "size": 157880, "name": "nhm.zhz"}]}
+{"_id": 395, "command": "cd", "argument": ".."}
+{"_id": 396, "command": "cd", "argument": ".."}
+{"_id": 397, "command": "cd", "argument": "ssdlqcrw"}
+{"_id": 398, "command": "ls", "output": [{"type": "file", "size": 121507, "name": "dssrvr"}, {"type": "file", "size": 295897, "name": "lvtwlb.whn"}, {"type": "file", "size": 12047, "name": "pjts.gqc"}]}
+{"_id": 399, "command": "cd", "argument": ".."}
+{"_id": 400, "command": "cd", "argument": ".."}
+{"_id": 401, "command": "cd", "argument": ".."}
+{"_id": 402, "command": "cd", "argument": ".."}
+{"_id": 403, "command": "cd", "argument": "mqjjbq"}
+{"_id": 404, "command": "ls", "output": [{"type": "file", "size": 157818, "name": "blbmb.fcv"}, {"type": "file", "size": 119103, "name": "ccppbmqb.pbt"}, {"type": "file", "size": 141463, "name": "cpqhb.jsf"}, {"type": "file", "size": 197900, "name": "drhmws.fdd"}, {"type": "dir", "name": "fmvp"}, {"type": "dir", "name": "rhldnjlt"}, {"type": "file", "size": 175029, "name": "vqfsh.smp"}]}
+{"_id": 405, "command": "cd", "argument": "fmvp"}
+{"_id": 406, "command": "ls", "output": [{"type": "dir", "name": "dhnn"}, {"type": "dir", "name": "dlcvwqw"}, {"type": "file", "size": 131432, "name": "hnv.tlr"}, {"type": "dir", "name": "jzqt"}, {"type": "file", "size": 98127, "name": "nhm.zhz"}, {"type": "dir", "name": "nvsdbjj"}, {"type": "dir", "name": "pjts"}, {"type": "file", "size": 9179, "name": "pvczm.cfw"}, {"type": "file", "size": 121310, "name": "vqfsh.smp"}]}
+{"_id": 407, "command": "cd", "argument": "dhnn"}
+{"_id": 408, "command": "ls", "output": [{"type": "file", "size": 173921, "name": "qcjsdg.zfg"}, {"type": "file", "size": 58654, "name": "vhvn.csb"}]}
+{"_id": 409, "command": "cd", "argument": ".."}
+{"_id": 410, "command": "cd", "argument": "dlcvwqw"}
+{"_id": 411, "command": "ls", "output": [{"type": "file", "size": 285116, "name": "zjb"}]}
+{"_id": 412, "command": "cd", "argument": ".."}
+{"_id": 413, "command": "cd", "argument": "jzqt"}
+{"_id": 414, "command": "ls", "output": [{"type": "file", "size": 104478, "name": "clmzwnf"}, {"type": "file", "size": 299622, "name": "cpqhb.jsf"}, {"type": "file", "size": 301236, "name": "jjdgzwnq"}, {"type": "dir", "name": "nsvlqq"}, {"type": "file", "size": 136737, "name": "vhvn"}, {"type": "dir", "name": "vmp"}, {"type": "file", "size": 12932, "name": "wrd.jsz"}]}
+{"_id": 415, "command": "cd", "argument": "nsvlqq"}
+{"_id": 416, "command": "ls", "output": [{"type": "file", "size": 111712, "name": "dtbzzl.htn"}, {"type": "file", "size": 213593, "name": "hvzlmtj.ztr"}]}
+{"_id": 417, "command": "cd", "argument": ".."}
+{"_id": 418, "command": "cd", "argument": "vmp"}
+{"_id": 419, "command": "ls", "output": [{"type": "file", "size": 104275, "name": "jjdgzwnq"}]}
+{"_id": 420, "command": "cd", "argument": ".."}
+{"_id": 421, "command": "cd", "argument": ".."}
+{"_id": 422, "command": "cd", "argument": "nvsdbjj"}
+{"_id": 423, "command": "ls", "output": [{"type": "file", "size": 180999, "name": "jjdgzwnq"}, {"type": "file", "size": 219819, "name": "vhvn"}]}
+{"_id": 424, "command": "cd", "argument": ".."}
+{"_id": 425, "command": "cd", "argument": "pjts"}
+{"_id": 426, "command": "ls", "output": [{"type": "file", "size": 111715, "name": "npzn"}]}
+{"_id": 427, "command": "cd", "argument": ".."}
+{"_id": 428, "command": "cd", "argument": ".."}
+{"_id": 429, "command": "cd", "argument": "rhldnjlt"}
+{"_id": 430, "command": "ls", "output": [{"type": "dir", "name": "ffhcbvmf"}, {"type": "dir", "name": "vprlq"}]}
+{"_id": 431, "command": "cd", "argument": "ffhcbvmf"}
+{"_id": 432, "command": "ls", "output": [{"type": "file", "size": 247668, "name": "cpqhb.jsf"}]}
+{"_id": 433, "command": "cd", "argument": ".."}
+{"_id": 434, "command": "cd", "argument": "vprlq"}
+{"_id": 435, "command": "ls", "output": [{"type": "file", "size": 168090, "name": "jmmtz.fzt"}, {"type": "file", "size": 68360, "name": "nhm.zhz"}, {"type": "file", "size": 304580, "name": "vqfsh.smp"}]}
+{"_id": 436, "command": "cd", "argument": ".."}
+{"_id": 437, "command": "cd", "argument": ".."}
+{"_id": 438, "command": "cd", "argument": ".."}
+{"_id": 439, "command": "cd", "argument": "nhblb"}
+{"_id": 440, "command": "ls", "output": [{"type": "file", "size": 154794, "name": "hrgsrbnj.tch"}, {"type": "dir", "name": "nfwl"}, {"type": "dir", "name": "ptc"}, {"type": "dir", "name": "rng"}, {"type": "file", "size": 50110, "name": "swtt.tct"}, {"type": "dir", "name": "vhvn"}, {"type": "dir", "name": "vlj"}]}
+{"_id": 441, "command": "cd", "argument": "nfwl"}
+{"_id": 442, "command": "ls", "output": [{"type": "dir", "name": "lqs"}, {"type": "dir", "name": "mlvnlz"}]}
+{"_id": 443, "command": "cd", "argument": "lqs"}
+{"_id": 444, "command": "ls", "output": [{"type": "dir", "name": "mbcft"}, {"type": "dir", "name": "ntmvt"}, {"type": "dir", "name": "nztw"}]}
+{"_id": 445, "command": "cd", "argument": "mbcft"}
+{"_id": 446, "command": "ls", "output": [{"type": "file", "size": 78188, "name": "bdnr"}, {"type": "file", "size": 194668, "name": "pjts"}]}
+{"_id": 447, "command": "cd", "argument": ".."}
+{"_id": 448, "command": "cd", "argument": "ntmvt"}
+{"_id": 449, "command": "ls", "output": [{"type": "file", "size": 75647, "name": "nhm.zhz"}, {"type": "file", "size": 186651, "name": "scsvrqpf.jhb"}]}
+{"_id": 450, "command": "cd", "argument": ".."}
+{"_id": 451, "command": "cd", "argument": "nztw"}
+{"_id": 452, "command": "ls", "output": [{"type": "file", "size": 164920, "name": "vqfsh.smp"}]}
+{"_id": 453, "command": "cd", "argument": ".."}
+{"_id": 454, "command": "cd", "argument": ".."}
+{"_id": 455, "command": "cd", "argument": "mlvnlz"}
+{"_id": 456, "command": "ls", "output": [{"type": "file", "size": 289891, "name": "wjf"}]}
+{"_id": 457, "command": "cd", "argument": ".."}
+{"_id": 458, "command": "cd", "argument": ".."}
+{"_id": 459, "command": "cd", "argument": "ptc"}
+{"_id": 460, "command": "ls", "output": [{"type": "file", "size": 190002, "name": "pjts.vmh"}]}
+{"_id": 461, "command": "cd", "argument": ".."}
+{"_id": 462, "command": "cd", "argument": "rng"}
+{"_id": 463, "command": "ls", "output": [{"type": "file", "size": 39093, "name": "nhm.zhz"}]}
+{"_id": 464, "command": "cd", "argument": ".."}
+{"_id": 465, "command": "cd", "argument": "vhvn"}
+{"_id": 466, "command": "ls", "output": [{"type": "file", "size": 275854, "name": "hbv"}]}
+{"_id": 467, "command": "cd", "argument": ".."}
+{"_id": 468, "command": "cd", "argument": "vlj"}
+{"_id": 469, "command": "ls", "output": [{"type": "dir", "name": "qqqrm"}, {"type": "file", "size": 203390, "name": "ssdlqcrw"}]}
+{"_id": 470, "command": "cd", "argument": "qqqrm"}
+{"_id": 471, "command": "ls", "output": [{"type": "dir", "name": "wcpllh"}]}
+{"_id": 472, "command": "cd", "argument": "wcpllh"}
+{"_id": 473, "command": "ls", "output": [{"type": "dir", "name": "pwg"}]}
+{"_id": 474, "command": "cd", "argument": "pwg"}
+{"_id": 475, "command": "ls", "output": [{"type": "file", "size": 19102, "name": "dtbzzl.qvp"}]}
+{"_id": 476, "command": "cd", "argument": ".."}
+{"_id": 477, "command": "cd", "argument": ".."}
+{"_id": 478, "command": "cd", "argument": ".."}
+{"_id": 479, "command": "cd", "argument": ".."}
+{"_id": 480, "command": "cd", "argument": ".."}
+{"_id": 481, "command": "cd", "argument": "ssdlqcrw"}
+{"_id": 482, "command": "ls", "output": [{"type": "file", "size": 181610, "name": "vqfsh.smp"}]}
+{"_id": 483, "command": "cd", "argument": ".."}
+{"_id": 484, "command": "cd", "argument": "ttvgr"}
+{"_id": 485, "command": "ls", "output": [{"type": "dir", "name": "vpcpd"}]}
+{"_id": 486, "command": "cd", "argument": "vpcpd"}
+{"_id": 487, "command": "ls", "output": [{"type": "file", "size": 28102, "name": "mbb.szv"}, {"type": "file", "size": 304017, "name": "rshrzjhn"}]}
+{"_id": 488, "command": "cd", "argument": ".."}
+{"_id": 489, "command": "cd", "argument": ".."}
+{"_id": 490, "command": "cd", "argument": "vdmm"}
+{"_id": 491, "command": "ls", "output": [{"type": "file", "size": 95079, "name": "tssjcd.lfg"}]}
+{"_id": 492, "command": "cd", "argument": ".."}
+{"_id": 493, "command": "cd", "argument": "wnhnwjm"}
+{"_id": 494, "command": "ls", "output": [{"type": "file", "size": 67931, "name": "mmhcgsc.zjf"}, {"type": "file", "size": 22062, "name": "nqpzsf.ccc"}, {"type": "file", "size": 219285, "name": "trr.vcn"}]}
+{"_id": 495, "command": "cd", "argument": ".."}
+{"_id": 496, "command": "cd", "argument": "zdvbsb"}
+{"_id": 497, "command": "ls", "output": [{"type": "file", "size": 293736, "name": "dtbzzl.ftj"}]}
+{"_id": 498, "command": "cd", "argument": ".."}
+{"_id": 499, "command": "cd", "argument": ".."}
+{"_id": 500, "command": "cd", "argument": "ptzsl"}
+{"_id": 501, "command": "ls", "output": [{"type": "file", "size": 26404, "name": "jnsdzmbd"}]}
+{"_id": 502, "command": "cd", "argument": ".."}
+{"_id": 503, "command": "cd", "argument": "wmqc"}
+{"_id": 504, "command": "ls", "output": [{"type": "dir", "name": "dtbzzl"}, {"type": "dir", "name": "hdzmzc"}, {"type": "dir", "name": "nmmpwqvz"}, {"type": "dir", "name": "qjnm"}]}
+{"_id": 505, "command": "cd", "argument": "dtbzzl"}
+{"_id": 506, "command": "ls", "output": [{"type": "dir", "name": "hpzgnb"}]}
+{"_id": 507, "command": "cd", "argument": "hpzgnb"}
+{"_id": 508, "command": "ls", "output": [{"type": "file", "size": 189696, "name": "sbmdrbm"}]}
+{"_id": 509, "command": "cd", "argument": ".."}
+{"_id": 510, "command": "cd", "argument": ".."}
+{"_id": 511, "command": "cd", "argument": "hdzmzc"}
+{"_id": 512, "command": "ls", "output": [{"type": "file", "size": 143510, "name": "dtbzzl.dmp"}]}
+{"_id": 513, "command": "cd", "argument": ".."}
+{"_id": 514, "command": "cd", "argument": "nmmpwqvz"}
+{"_id": 515, "command": "ls", "output": [{"type": "file", "size": 276725, "name": "nhm.zhz"}]}
+{"_id": 516, "command": "cd", "argument": ".."}
+{"_id": 517, "command": "cd", "argument": "qjnm"}
+{"_id": 518, "command": "ls", "output": [{"type": "file", "size": 202264, "name": "cpqhb.jsf"}]}
