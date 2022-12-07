@@ -82,9 +82,7 @@
         '$map': {
           'input': '$content', 
           'in': {
-            'type': '$$this.type', 
-            'size': '$$this.size', 
-            'name': {'$concat': ['$name', '$$this.name', '/']}
+            '$mergeObjects': ['$$this', {'name': {'$concat': ['$name', '$$this.name', '/']}}]
           }
         }
       }
