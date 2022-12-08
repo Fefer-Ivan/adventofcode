@@ -96,6 +96,7 @@
                                 'input': '$$this', 
                                 'as': 'tree', 
                                 'cond': { '$gte': [ '$$tree', '$$cur.h' ] }
+                                //limit: 1 - Limit argument for $filter was added in 6.0
                               }
                             }
                           }, 
