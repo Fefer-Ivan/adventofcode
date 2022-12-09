@@ -170,11 +170,8 @@
       }
     }
   }, {
-    '$unwind': { 'path': '$result.visited' }
-  }, {
-    '$group': {
-      '_id': '$initialState', 
-      'visitedSet': { '$addToSet': '$result.visited' }
+    '$addFields': {
+      'visitedSet': { '$setUnion': '$result.visited' }
     }
   }, {
     '$addFields': {
