@@ -1,0 +1,14 @@
+{"sensor": {"x": 2, "y": 18}, "beacon": {"x": -2, "y": 15}}
+{"sensor": {"x": 9, "y": 16}, "beacon": {"x": 10, "y": 16}}
+{"sensor": {"x": 13, "y": 2}, "beacon": {"x": 15, "y": 3}}
+{"sensor": {"x": 12, "y": 14}, "beacon": {"x": 10, "y": 16}}
+{"sensor": {"x": 10, "y": 20}, "beacon": {"x": 10, "y": 16}}
+{"sensor": {"x": 14, "y": 17}, "beacon": {"x": 10, "y": 16}}
+{"sensor": {"x": 8, "y": 7}, "beacon": {"x": 2, "y": 10}}
+{"sensor": {"x": 2, "y": 0}, "beacon": {"x": 2, "y": 10}}
+{"sensor": {"x": 0, "y": 11}, "beacon": {"x": 2, "y": 10}}
+{"sensor": {"x": 20, "y": 14}, "beacon": {"x": 25, "y": 17}}
+{"sensor": {"x": 17, "y": 20}, "beacon": {"x": 21, "y": 22}}
+{"sensor": {"x": 16, "y": 7}, "beacon": {"x": 15, "y": 3}}
+{"sensor": {"x": 14, "y": 3}, "beacon": {"x": 15, "y": 3}}
+{"sensor": {"x": 20, "y": 1}, "beacon": {"x": 15, "y": 3}}
