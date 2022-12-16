@@ -1,0 +1,61 @@
+{"_id": "RT", "rate": 0, "tunnels": ["EN", "LZ"]}
+{"_id": "VB", "rate": 0, "tunnels": ["SZ", "BF"]}
+{"_id": "AD", "rate": 0, "tunnels": ["EB", "JF"]}
+{"_id": "RE", "rate": 4, "tunnels": ["QB", "IF", "XT", "WF", "KW"]}
+{"_id": "RL", "rate": 0, "tunnels": ["DQ", "LZ"]}
+{"_id": "OK", "rate": 0, "tunnels": ["QH", "BF"]}
+{"_id": "RV", "rate": 0, "tunnels": ["IU", "JF"]}
+{"_id": "TE", "rate": 0, "tunnels": ["HE", "XF"]}
+{"_id": "WW", "rate": 0, "tunnels": ["QH", "YZ"]}
+{"_id": "HB", "rate": 15, "tunnels": ["OM"]}
+{"_id": "IY", "rate": 14, "tunnels": ["UH", "KW", "BN", "LW", "UY"]}
+{"_id": "QF", "rate": 0, "tunnels": ["JF", "PL"]}
+{"_id": "YZ", "rate": 0, "tunnels": ["JG", "WW"]}
+{"_id": "QB", "rate": 0, "tunnels": ["SP", "RE"]}
+{"_id": "SO", "rate": 0, "tunnels": ["QH", "SZ"]}
+{"_id": "EB", "rate": 7, "tunnels": ["IF", "NH", "AD", "VI", "DQ"]}
+{"_id": "VL", "rate": 0, "tunnels": ["JF", "YV"]}
+{"_id": "BF", "rate": 18, "tunnels": ["OK", "VB", "OH", "SX"]}
+{"_id": "UC", "rate": 0, "tunnels": ["SC", "YV"]}
+{"_id": "OQ", "rate": 0, "tunnels": ["XT", "AA"]}
+{"_id": "YV", "rate": 6, "tunnels": ["YX", "TT", "VL", "UC", "NH"]}
+{"_id": "KJ", "rate": 0, "tunnels": ["OH", "JG"]}
+{"_id": "QH", "rate": 20, "tunnels": ["SO", "OK", "WW"]}
+{"_id": "KW", "rate": 0, "tunnels": ["RE", "IY"]}
+{"_id": "PL", "rate": 0, "tunnels": ["JG", "QF"]}
+{"_id": "DQ", "rate": 0, "tunnels": ["EB", "RL"]}
+{"_id": "AA", "rate": 0, "tunnels": ["YI", "EN", "UK", "OQ", "VI"]}
+{"_id": "XT", "rate": 0, "tunnels": ["OQ", "RE"]}
+{"_id": "SZ", "rate": 24, "tunnels": ["VB", "SO"]}
+{"_id": "IU", "rate": 25, "tunnels": ["RV", "HE", "HQ"]}
+{"_id": "OM", "rate": 0, "tunnels": ["NY", "HB"]}
+{"_id": "YX", "rate": 0, "tunnels": ["YV", "SI"]}
+{"_id": "SX", "rate": 0, "tunnels": ["ZB", "BF"]}
+{"_id": "KD", "rate": 0, "tunnels": ["XF", "LW"]}
+{"_id": "SP", "rate": 0, "tunnels": ["XF", "QB"]}
+{"_id": "UY", "rate": 0, "tunnels": ["UK", "IY"]}
+{"_id": "XF", "rate": 22, "tunnels": ["SP", "TE", "KD", "NY"]}
+{"_id": "SC", "rate": 0, "tunnels": ["LZ", "UC"]}
+{"_id": "UK", "rate": 0, "tunnels": ["UY", "AA"]}
+{"_id": "LW", "rate": 0, "tunnels": ["KD", "IY"]}
+{"_id": "FL", "rate": 0, "tunnels": ["BN", "LZ"]}
+{"_id": "VI", "rate": 0, "tunnels": ["AA", "EB"]}
+{"_id": "HW", "rate": 0, "tunnels": ["JF", "CY"]}
+{"_id": "YI", "rate": 0, "tunnels": ["AA", "TT"]}
+{"_id": "HE", "rate": 0, "tunnels": ["IU", "TE"]}
+{"_id": "JG", "rate": 10, "tunnels": ["PL", "YZ", "SI", "KJ"]}
+{"_id": "BN", "rate": 0, "tunnels": ["IY", "FL"]}
+{"_id": "IF", "rate": 0, "tunnels": ["EB", "RE"]}
+{"_id": "JF", "rate": 19, "tunnels": ["HW", "QF", "VL", "RV", "AD"]}
+{"_id": "SI", "rate": 0, "tunnels": ["JG", "YX"]}
+{"_id": "WF", "rate": 0, "tunnels": ["LZ", "RE"]}
+{"_id": "HQ", "rate": 0, "tunnels": ["IU", "UH"]}
+{"_id": "LZ", "rate": 5, "tunnels": ["SC", "FL", "WF", "RL", "RT"]}
+{"_id": "UH", "rate": 0, "tunnels": ["IY", "HQ"]}
+{"_id": "CY", "rate": 21, "tunnels": ["HW"]}
+{"_id": "NH", "rate": 0, "tunnels": ["EB", "YV"]}
+{"_id": "TT", "rate": 0, "tunnels": ["YV", "YI"]}
+{"_id": "OH", "rate": 0, "tunnels": ["KJ", "BF"]}
+{"_id": "EN", "rate": 0, "tunnels": ["RT", "AA"]}
+{"_id": "NY", "rate": 0, "tunnels": ["OM", "XF"]}
+{"_id": "ZB", "rate": 8, "tunnels": ["SX"]}
