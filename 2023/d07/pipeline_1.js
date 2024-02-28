@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   {
     $project: {
       hands: { $map: {
@@ -128,4 +128,4 @@
         },
     },
   },
-]
+];

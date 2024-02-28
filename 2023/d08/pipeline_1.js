@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   {
     $addFields: { lines: { $split: ["$data", "\n"], }, },
   },
@@ -62,4 +62,4 @@
       },
     },
   },
-]
+];

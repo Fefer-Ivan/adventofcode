@@ -1,4 +1,4 @@
-[
+const pipeline2 = [
   { $addFields: { lines: { $split: ["$data", "\n"], }, }, },
   { $addFields: {
       instructions: { $let: {
@@ -78,4 +78,4 @@
                         then: "$$value",
                         else: { a: { $mod: [ "$$value.b", "$$value.a", ], }, b: "$$value.a", }, }, }, }, }, },
               in: { $multiply: [ { $divide: [ "$$this", "$$gcd.b", ], }, "$$value", ], }, }, }, }, }, }, },
-]
+];
