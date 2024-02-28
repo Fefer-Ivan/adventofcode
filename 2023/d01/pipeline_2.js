@@ -1,4 +1,4 @@
-[
+const pipeline2 = [
   {
     '$project': {
       'data': 1, 

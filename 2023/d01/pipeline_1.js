@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   {
     '$project': {
       'lines': {
