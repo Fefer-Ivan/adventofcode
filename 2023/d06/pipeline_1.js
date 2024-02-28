@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   {
     '$project': {
       'lines': {
@@ -7,7 +7,7 @@
           'as': 'line', 
           'in': {
             '$map': {
-              'input': { '$regexFindAll': { 'input': '$$line', 'regex': new RegExp('\d+') } }, 
+              'input': { '$regexFindAll': { 'input': '$$line', 'regex': new RegExp('\\d+') } }, 
               'as': 'match', 
               'in': { '$toInt': '$$match.match' }
             }
@@ -101,4 +101,4 @@
       }
     }
   }
-]
+];

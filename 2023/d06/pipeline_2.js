@@ -1,4 +1,4 @@
-[
+const pipeline2 = [
   {
     '$project': {
       'race': {
@@ -8,7 +8,7 @@
           'in': {
             '$toLong': {
               '$reduce': {
-                'input': { '$regexFindAll': { 'input': '$$line', 'regex': new RegExp('\d+') } }, 
+                'input': { '$regexFindAll': { 'input': '$$line', 'regex': new RegExp('\\\d+') } }, 
                 'initialValue': '', 
                 'in': { '$concat': [ '$$value', '$$this.match' ]
                 }
@@ -73,4 +73,4 @@
       }
     }
   }
-]
+];
