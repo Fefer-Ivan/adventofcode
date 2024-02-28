@@ -1,37 +1,37 @@
-[
+const pipeline1 = [
   {
     '$project': { 'lines': { '$split': [ '$data', '\n' ] } }
   }, {
     '$project': {
-      'lines': 1, 
+      'lines': 1,
       'symbolIdxs': {
         '$map': {
-          'input': '$lines', 
-          'as': 'line', 
+          'input': '$lines',
+          'as': 'line',
           'in': {
             '$setUnion': [
               {
                 '$map': {
-                  'input': { '$regexFindAll': { 'input': '$$line', 'regex': new RegExp('[^.0-9]') } }, 
-                  'as': 'match', 
+                  'input': { '$regexFindAll': { 'input': '$$line', 'regex': new RegExp('[^.0-9]') } },
+                  'as': 'match',
                   'in': '$$match.idx'
                 }
               }
             ]
           }
         }
-      }, 
+      },
       'numbers': {
         '$map': {
-          'input': '$lines', 
-          'as': 'line', 
+          'input': '$lines',
+          'as': 'line',
           'in': {
             '$map': {
-              'input': { '$regexFindAll': { 'input': '$$line', 'regex': new RegExp('\d+') } }, 
-              'as': 'match', 
+              'input': { '$regexFindAll': { 'input': '$$line', 'regex': new RegExp('\\d+') } },
+              'as': 'match',
               'in': {
-                'symbolLf': { '$subtract': [ '$$match.idx', 1 ] }, 
-                'symbolRg': { '$add': [ '$$match.idx', { '$strLenBytes': '$$match.match' }, 1 ] }, 
+                'symbolLf': { '$subtract': [ '$$match.idx', 1 ] },
+                'symbolRg': { '$add': [ '$$match.idx', { '$strLenBytes': '$$match.match' }, 1 ] },
                 'num': { '$toInt': '$$match.match' }
               }
             }
@@ -43,19 +43,19 @@
     '$addFields': {
       'symbolIdxs': {
         '$concatArrays': [ [ [] ], '$symbolIdxs', [ [] ] ]
-      }, 
+      },
       'numbers': {
         '$concatArrays': [ [ [] ], '$numbers' ]
       }
     }
   }, {
     '$project': {
-      'lines': 1, 
-      'symbolIdxs': 1, 
+      'lines': 1,
+      'symbolIdxs': 1,
       'numbers': {
         '$map': {
-          'input': { '$range': [ 1, { '$size': '$numbers' } ] }, 
-          'as': 'i', 
+          'input': { '$range': [ 1, { '$size': '$numbers' } ] },
+          'as': 'i',
           'in': {
             '$let': {
               'vars': {
@@ -66,14 +66,14 @@
                       '$arrayElemAt': [ '$symbolIdxs', { '$add': [ '$$i', 1 ] } ] }
                   ]
                 }
-              }, 
-              'in': '$$symbols', 
+              },
+              'in': '$$symbols',
               'in': {
-                'symbols': '$$symbols', 
+                'symbols': '$$symbols',
                 'numbers': {
                   '$filter': {
-                    'input': { '$arrayElemAt': [ '$numbers', '$$i' ] }, 
-                    'as': 'number', 
+                    'input': { '$arrayElemAt': [ '$numbers', '$$i' ] },
+                    'as': 'number',
                     'cond': {
                       '$lt': [
                         0, {
@@ -98,8 +98,8 @@
       'sum': {
         '$sum': {
           '$map': {
-            'input': '$numbers', 
-            'as': 'n', 
+            'input': '$numbers',
+            'as': 'n',
             'in': {
               '$sum': { '$map': { 'input': '$$n.numbers', 'as': 'number', 'in': '$$number.num' } }
             }
@@ -108,4 +108,4 @@
       }
     }
   }
-]
+];
