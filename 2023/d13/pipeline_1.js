@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   { $project: { sets: { $split: ["$data", "\n\n"], }, }, },
   { $unwind: { path: "$sets", }, },
   { $addFields: {
@@ -47,4 +47,4 @@
                                     }, }, }, }, }, }, }, }, }, }, ], }, }, }, }, }, }, },
   { $addFields: { reflection: { $sum: { $map: { input: "$reflection", in: { $sum: "$$this", }, }, }, }, }, },
   { $group: { _id: "$_id", totalReflections: { $sum: "$reflection", }, }, },
-]
+];

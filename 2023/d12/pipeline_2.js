@@ -1,4 +1,4 @@
-[
+const pipeline2 = [
   { $project: {
       data: { $map: {
           input: { $split: ["$data", "\n"], },
@@ -91,4 +91,4 @@
   { $group: {
       _id: "$_id",
       sum: { $sum: "$totalCount.value", }, }, },
-]
+];
