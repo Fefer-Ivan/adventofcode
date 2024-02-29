@@ -1,4 +1,4 @@
-[
+const pipeline2 = [
   { $project: { lines: { $split: ["$data", "\n"], }, }, },
   { $addFields: {
       rows: { $size: "$lines", },
@@ -222,4 +222,4 @@
     $project: {
       lines: 1,
       totalInside: { $sum: { $map: { input: "$inside", in: "$$this.insideCount", }, }, }, }, },
-]
+];

@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   { $project: { lines: { $split: ["$data", "\n"], }, }, },
   { $addFields: {
       rows: { $size: "$lines", },
@@ -141,4 +141,4 @@
                     else: -100500,
                   }, }, }, }, }, }, }, }, },
   { $addFields: { max: { $divide: [ { $max: "$loopSizes", }, 4, ], }, }, },
-]
+];
