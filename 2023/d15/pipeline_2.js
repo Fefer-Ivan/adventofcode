@@ -1,4 +1,4 @@
-[
+const pipeline2 = [
   { $addFields: {
       sequence: { $map: {
           input: { $split: ["$data", ","], },
@@ -57,4 +57,5 @@
                           { $add: ["$$hash", 1], },
                           { $add: ["$$i", 1], },
                           { $getField: { input: { $arrayElemAt: [ "$$array", "$$i", ], }, field: "v", }, }, ], }, }, }, }, }, }, }, }, }, }, },
-]
+  {$project: {_id: 0, data: 0, sequence: 0, map: 0}}
+];

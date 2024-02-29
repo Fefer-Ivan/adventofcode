@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   { $addFields: {
       hash: { $sum: { $map: {
             input: { $split: ["$data", ","], },
@@ -17,4 +17,5 @@
                         17, ], },
                     256,
                   ], }, }, }, }, }, }, }, },
-]
+  {$project: {_id: 0, data: 0}}
+];
