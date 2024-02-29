@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   { $project: { lines: { $split: ["$data", "\n"], }, }, },
   { $addFields: {
       rows: { $size: "$lines", },
@@ -30,4 +30,5 @@
                     { $lt: ["$$this.x", "$rows"], },
                     { $lte: [0, "$$this.y"], },
                     { $lt: ["$$this.x", "$cols"], }, ], }, }, }, ], }, }, }, },
-]
+  { $project: { lines: 0, path: 0 }}
+];

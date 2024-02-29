@@ -1,4 +1,4 @@
-[
+const pipeline2 = [
   { $project: { lines: { $split: ["$data", "\n"], }, }, },
   { $addFields: {
       rows: { $size: "$lines", },
@@ -57,4 +57,4 @@
   { $group: {
       _id: "$_id",
       maxUniqueCells: { $max: "$uniqueCells", }, }, },
-]
+];
