@@ -1,4 +1,4 @@
-[
+const pipeline2 = [
   {
     $project: {
       history: { $map: {
@@ -36,4 +36,4 @@
     $group: {
       _id: "$_id",
       newValuesSum: { $sum: "$newValue", },
-    }, }, ]
+    }, }, ];
