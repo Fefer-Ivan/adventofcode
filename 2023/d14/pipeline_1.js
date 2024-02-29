@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   { $project: {
       lines: { $split: ["$data", "\n"], },
       field: { $map: {
@@ -55,4 +55,4 @@
             in: { $sum: { $map: {
                   input: { $regexFindAll: { input: "$$this", regex: /O/, }, },
                   in: { $add: [ { $subtract: [ "$n", "$$this.idx", ], }, -1, ], }, }, }, }, }, }, }, }, },
-]
+];

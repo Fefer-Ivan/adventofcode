@@ -1,4 +1,4 @@
-[
+const pipeline2 = [
   { $project: {
       lines: { $split: ["$data", "\n"], },
       field: { $map: {
@@ -108,4 +108,4 @@
                   { $add: [
                       "$$prefix",
                       { $mod: [ { $subtract: [ 1000000000, "$$prefix", ], }, "$$size", ], }, ], }, ], }, }, }, }, }, }, },
-]
+];
