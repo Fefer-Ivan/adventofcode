@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   { $project: { lines: { $split: ["$data", "\n"], }, }, },
   { $addFields: {
       maxX: { $size: "$lines", },
@@ -57,4 +57,5 @@
           { $sum: { $map: { input: "$galaxyDistances", in: { $sum: "$$this", }, }, }, },
           2,
         ], }, }, },
-]
+  { $project: { _id: 0, lines: 0, galaxyDistances: 0, galaxies: 0 }}
+];
