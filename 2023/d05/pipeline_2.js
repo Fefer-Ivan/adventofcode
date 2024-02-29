@@ -1,4 +1,35 @@
-[
+const pipeline2 = [
+    {$addFields: {
+      data: {$let: {
+        vars: {blocks: {$split: ["$data", "\n\n"]}},
+        in: {
+          seeds: {$map: {
+            input: {$regexFindAll: {
+              input: {$arrayElemAt: ["$$blocks", 0]},
+              regex: /\d+/
+            }},
+            in: {$toLong: "$$this.match"}
+          }},
+          maps: {$map: {
+            input: {$slice: ["$$blocks", 1, {$add: [{$size: "$$blocks"}, 1]}]},
+            in: {$map: {
+              input: {$regexFindAll: {
+                input: "$$this",
+                regex: /\d+ \d+ \d+/
+              }},
+              in: {$arrayToObject: {$zip: {inputs: [
+                ["to", "from", "length"],
+                {$map: {
+                  input: {$split: ["$$this.match", ' ']},
+                  in: {$toLong: "$$this"}
+                }}
+              ]}}}
+            }}
+          }}
+        }
+      }}
+  }},
+  {$replaceRoot: {newRoot: "$data"}},
   {
     '$addFields': {
       'seeds': {
@@ -139,5 +170,6 @@
     '$addFields': {
       'location': { '$first': { '$sortArray': { 'input': '$locations', 'sortBy': { 'from': 1 } } } }
     }
-  }
-]
+  },
+  {'$project': {seeds: 0, maps: 0, locations: 0}}
+];
