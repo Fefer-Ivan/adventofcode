@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   { $project: {
       pipelines: { $first: { $split: ["$data", "\n\n"], }, },
       parts: { $last: { $split: ["$data", "\n\n"], }, }, }, },
@@ -70,4 +70,4 @@
       sum: { $sum: { $map: {
             input: { $filter: { input: "$verdict", cond: { $eq: ["$$this.verdict", "A"], }, }, },
             in: "$$this.sum", }, }, }, }, },
-]
+];

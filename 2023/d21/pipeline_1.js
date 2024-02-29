@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   { $project: { lines: { $split: ["$data", "\n"], }, }, },
   { $addFields: {
       n: { $size: "$lines", },
@@ -23,4 +23,4 @@
       visited64: { $size: { $filter: {
             input: "$visited",
             cond: { $eq: [ { $mod: ["$$this.depth", 2], }, 0, ], }, }, }, }, }, },
-]
+];

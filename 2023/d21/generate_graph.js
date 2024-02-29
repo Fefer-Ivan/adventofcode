@@ -1,4 +1,4 @@
-[
+const graph_pipeline = [
   { $project: { lines: { $split: ["$data", "\n"], }, }, },
   { $addFields: {
       n: { $size: "$lines", },
@@ -34,4 +34,4 @@
                       { $substr: [ { $arrayElemAt: [ "$lines", "$$this.x", ], }, "$$this.y", 1, ], }, ], }, ], }, }, }, }, }, },
   },
   { $out: "d21_graph", },
-]
+];

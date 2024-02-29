@@ -1,4 +1,4 @@
-[
+const pipeline1 = [
   { $project: {
       bricks: { $sortArray: {
           input: { $map: {
@@ -100,4 +100,4 @@
                     1,
                   ], }, }, }, }, }, }, }, },
   { $addFields: { count: { $size: { $filter: { input: "$destroyable", cond: "$$this", }, }, }, }, },
-]
+];
