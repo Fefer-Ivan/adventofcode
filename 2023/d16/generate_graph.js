@@ -19,11 +19,7 @@ const graph_pipeline = [
                           { $map: {
                               input: { $range: [ 0, "$cols", ], },
                               as: "y",
-                              in: {
-                                testId: "$_id",
-                                dir: "$$dir",
-                                x: "$$this",
-                                y: "$$y",
+                              in: { testId: "$_id", dir: "$$dir", x: "$$this", y: "$$y",
                               }, }, }, ], }, }, }, }, }, ], }, }, }, }, },
   { $unwind: { path: "$nodes", }, },
   { $project: {
@@ -31,12 +27,7 @@ const graph_pipeline = [
       node: "$nodes",
       edges: { $let: {
           vars: {
-            char: { $substr: [
-                { $arrayElemAt: [ "$lines", "$nodes.x", ], },
-                "$nodes.y",
-                1,
-              ],
-            },
+            char: { $substr: [ { $arrayElemAt: [ "$lines", "$nodes.x", ], }, "$nodes.y", 1, ], },
             nextNodes: [
               { testId: "$_id", dir: 0, x: { $add: ["$nodes.x", -1], }, y: "$nodes.y", },
               { testId: "$_id", dir: 1, x: "$nodes.x", y: { $add: ["$nodes.y", 1], }, },
@@ -55,10 +46,7 @@ const graph_pipeline = [
                                 if: { $eq: [ { $mod: [ "$nodes.dir", 2, ], }, 0, ], },
                                 then: 1,
                                 else: -1,
-                              },
-                            },
-                          ],
-                        }, ], }, ], },
+                              }, }, ], }, ], }, ], },
                 { case: { $eq: ["$$char", "\\"], },
                   then: [
                     { $arrayElemAt: [
