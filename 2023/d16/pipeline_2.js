@@ -7,35 +7,16 @@ const pipeline2 = [
       startNode: { $concatArrays: [
           { $map: {
               input: { $range: [0, "$rows"], },
-              in: {
-                testId: "$_id",
-                dir: 1,
-                x: "$$this",
-                y: 0, }, }, },
+              in: { testId: "$_id", dir: 1, x: "$$this", y: 0, }, }, },
           { $map: {
               input: { $range: [0, "$rows"], },
-              in: {
-                testId: "$_id",
-                dir: 3,
-                x: "$$this",
-                y: { $add: ["$cols", -1], },
-              }, }, },
+              in: { testId: "$_id", dir: 3, x: "$$this", y: { $add: ["$cols", -1], }, }, }, },
           { $map: {
               input: { $range: [0, "$cols"], },
-              in: {
-                testId: "$_id",
-                dir: 2,
-                x: 0,
-                y: "$$this",
-              }, }, },
+              in: { testId: "$_id", dir: 2, x: 0, y: "$$this", }, }, },
           { $map: {
               input: { $range: [0, "$cols"], },
-              in: {
-                testId: "$_id",
-                dir: 0,
-                x: { $add: ["$rows", -1], },
-                y: "$$this",
-              }, }, }, ], }, }, },
+              in: { testId: "$_id", dir: 0, x: { $add: ["$rows", -1], }, y: "$$this", }, }, }, ], }, }, },
   { $unwind: { path: "$startNode", }, },
   { $graphLookup: {
       from: "d16_graph",

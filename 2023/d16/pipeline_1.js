@@ -5,12 +5,7 @@ const pipeline1 = [
       cols: { $strLenBytes: { $first: "$lines", }, }, }, },
   { $graphLookup: {
       from: "d16_graph",
-      startWith: {
-        testId: "$_id",
-        dir: 1,
-        x: 0,
-        y: 0,
-      },
+      startWith: { testId: "$_id", dir: 1, x: 0, y: 0, },
       connectFromField: "edges",
       connectToField: "node",
       as: "path",
@@ -21,10 +16,7 @@ const pipeline1 = [
             { $filter: {
                 input: { $map: {
                     input: "$path",
-                    in: {
-                      x: "$$this.node.x",
-                      y: "$$this.node.y",
-                    }, }, },
+                    in: { x: "$$this.node.x", y: "$$this.node.y", }, }, },
                 cond: { $and: [
                     { $lte: [0, "$$this.x"], },
                     { $lt: ["$$this.x", "$rows"], },
