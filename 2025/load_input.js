@@ -14,7 +14,7 @@ function loadTxtData(dir) {
       continue;
     }
     const filename = path.join(dir, file);
-    const doc = {data: fs.readFileSync(filename, 'utf-8').trim()};
+    const doc = {_id: file, data: fs.readFileSync(filename, 'utf-8').trim()};
     coll.insertOne(doc);
     print("Inserted " + filename);
   } 
