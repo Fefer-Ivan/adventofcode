@@ -2,7 +2,7 @@ const pipeline1 = [
   {
     $project: {
       rows: { $map: {
-          input: { $split: ["$data", "\n"] },
+          input: { $split: [{$trim: {input: "$data"}}, "\n"] },
           in: { $filter: {
               input: { $split: ["$$this", " "] },
               cond: { $strLenCP: "$$this" } } } } } }
@@ -20,7 +20,7 @@ const pipeline1 = [
                 in: { $toLong: { $arrayElemAt: [ { $arrayElemAt: [ "$rows", "$$j" ] }, "$$i" ] } } } } } } } }
   },
   {
-    $addFields: {
+    $project: {
       opResults: { $sum: { $map: {
             input: "$ops",
             in: { $switch: {
